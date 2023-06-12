@@ -28,9 +28,17 @@ public class Criptoativo extends Criptomoeda {
 	public Criptomoeda getCriptomoeda() {
 		return criptomoeda;
 	}
-
 	// Setter para definir a criptomoeda associada ao criptoativo
 	public void setCriptomoeda(Criptomoeda criptomoeda) {
 		this.criptomoeda = criptomoeda;
+	}
+
+    // Getter para obter a quantidade do criptoativo
+	public Double getQuantidade() {
+		return quantidade;
+	}
+	// Setter para definir a quantidade do criptoativo
+	public void setQuantidade(Double quantidade) {
+		this.quantidade = quantidade;
 	}
 }
