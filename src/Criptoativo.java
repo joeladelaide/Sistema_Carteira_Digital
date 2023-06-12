@@ -41,4 +41,21 @@ public class Criptoativo extends Criptomoeda {
 	public void setQuantidade(Double quantidade) {
 		this.quantidade = quantidade;
 	}
+
+    public String toString() {
+		return 	 "\nNome: " + this.criptomoeda.getNome() + 
+				"\nSigla: " + this.criptomoeda.getSigla() +
+				"\nExchange: " + this.criptomoeda.getExchange() +
+				"\nSaldo: " + this.getQuantidade();
+	}
+
+	// Realiza um depósito na quantidade do criptoativo
+    public void depositar(Double valor) {
+        if(valor > 0) {
+        	setQuantidade(getQuantidade()+valor);
+            System.out.println("Seu depósito foi realizado com sucesso!");
+        }else {
+            System.out.println("Não foi possível realizar o depósito!");
+        }
+    }
 }
