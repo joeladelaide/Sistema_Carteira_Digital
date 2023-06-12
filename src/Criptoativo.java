@@ -58,4 +58,15 @@ public class Criptoativo extends Criptomoeda {
             System.out.println("Não foi possível realizar o depósito!");
         }
     }
+
+    // Realiza um saque na quantidade do criptoativo
+    public void sacar(Double valor) {
+        if(valor > 0 && this.getQuantidade() >= valor) {
+            setQuantidade(getQuantidade() - valor);
+            System.out.println("Saque realizado com sucesso!");
+        }else {
+            System.out.println("Não foi possível realizar o saque!");
+        }
+    }
+    
 }
