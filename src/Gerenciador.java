@@ -112,4 +112,20 @@ public class Gerenciador {
                 break;
         }
     }
+	
+    // Função para cadastrar uma nova criptomoeda
+	public static void cadastrar(){
+
+        limparTela();
+
+        System.out.println("\n\n                  CADASTRO DE CRIPTOMOEDAS   \n");
+
+        System.out.println("\nNome: ");
+        String nome = input.next();
+
+        System.out.println("\nSigla: ");
+        String sigla = input.next();
+
+        System.out.println("\nExchange: ");
+        String exchange = input.next();
 
