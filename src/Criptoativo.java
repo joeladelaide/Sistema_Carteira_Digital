@@ -1,5 +1,3 @@
-package Programa;
-
 public class Criptoativo extends Criptomoeda {
 	
 	private static int contador = 1;
@@ -68,5 +66,5 @@ public class Criptoativo extends Criptomoeda {
             System.out.println("Não foi possível realizar o saque!");
         }
     }
-    
+
 }
