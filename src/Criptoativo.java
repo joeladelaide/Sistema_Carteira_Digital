@@ -23,4 +23,14 @@ public class Criptoativo extends Criptomoeda {
 	public void setIdCriptoativo(int idCriptoativo) {
 		this.idCriptoativo = idCriptoativo;
 	}
+
+    // Getter para obter a criptomoeda associada ao criptoativo
+	public Criptomoeda getCriptomoeda() {
+		return criptomoeda;
+	}
+
+	// Setter para definir a criptomoeda associada ao criptoativo
+	public void setCriptomoeda(Criptomoeda criptomoeda) {
+		this.criptomoeda = criptomoeda;
+	}
 }
