@@ -68,3 +68,19 @@ public class Gerenciador {
         
     }
 
+    // Função para exibir o menu principal e solicitar uma opção ao usuário
+	public static void menu() {
+
+        limparTela();
+
+        System.out.println("\n\n                  CARTEIRA DIGITAL   \n");
+        System.out.println("               Selecione uma das Opções               \n");
+        System.out.println("         |   Opção 1 - Cadastrar Cripto   |");
+        System.out.println("         |   Opção 2 - Depositar Cripto   |");
+        System.out.println("         |   Opção 3 - Sacar Cripto       |");
+        System.out.println("         |   Opção 4 - Extrato            |");
+        System.out.println("         |   Opção 5 - Sair               |\n");
+        System.out.println("Opção: ");
+
+        int opcao = input.nextInt();
+
