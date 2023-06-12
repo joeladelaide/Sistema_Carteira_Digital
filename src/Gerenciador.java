@@ -84,3 +84,31 @@ public class Gerenciador {
 
         int opcao = input.nextInt();
 
+        switch (opcao) {
+            case 1:
+                cadastrar();
+                break;
+
+            case 2:
+                depositar();
+                break;
+
+            case 3:
+                sacar();
+                break;
+
+            case 4:
+                listar();
+                break;
+
+            case 5:
+                System.out.println("\n\nSaindo do Sistema...");
+                System.exit(0); 
+
+            default:
+                System.out.println("\n\nOpção inválida!");
+                menu();
+                break;
+        }
+    }
+
