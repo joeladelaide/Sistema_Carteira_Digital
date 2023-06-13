@@ -236,4 +236,21 @@ public class Gerenciador {
         menu();
 
     }
+
+     public static void listar() {
+        if(criptoativos.size() > 0) {
+            limparTela();
+            for(Criptoativo cripto: criptoativos) {
+                System.out.println(cripto);
+            }
+        }else {
+            limparTela();
+            System.out.println("\n\nNão há criptomoedas cadastradas! ");
+            tempo(2000);
+        }
+
+        aguardarUsuario();
+        
+        menu();
+    }
 }    
