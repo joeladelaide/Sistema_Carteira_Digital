@@ -197,4 +197,43 @@ public class Gerenciador {
         menu();
 
     }
+
+     public static void sacar() {
+
+        limparTela();
+
+        System.out.println("\n\n                  SAQUE DE CRIPTOMOEDAS   \n");
+
+        System.out.println("Insira o Número do ID: ");
+        int id = input.nextInt();
+        
+        Criptoativo criptoativo = encontrarCriptoativo(id);
+
+        if(criptoativo != null) {
+            try {
+                System.out.println("Qual a quantidade de " + criptoativo.getNome() + " que deseja sacar ? ");
+                Double valorSaque = input.nextDouble();
+            
+                criptoativo.sacar(valorSaque);
+
+                limparTela();
+                System.out.println("\n\nSaque realizado com SUCESSO!");
+                aguardarUsuario();
+            }
+            catch (Exception e) {
+
+                limparTela();
+                System.out.println("\n\nErro ao realizar o saque!");
+                aguardarUsuario();
+            }
+
+        }else {
+            limparTela();
+            System.out.println("\n\nCriptomoeda não encontrada!");
+            aguardarUsuario();
+        }
+
+        menu();
+
+    }
 }    
