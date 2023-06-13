@@ -1,5 +1,6 @@
 # Sistema_Carteira_Digital
- Sistema de Gerenciamento de Carteira Digital de Criptomoedas
+ Sistema de Gerenciamento de Carteira Digital de Criptomoedas<br>
+Trata-se de um sistema de gerenciamento de criptomoedas e criptoativos. O sistema permite o cadastro das criptomoedas, o deposito das criptomoedas, sacar as criptomoedas e ver o extrato e sair pela execução do código Java. Além da visualização completa das tabelas em questão.
 
 # Configuração de Ambiente
 Repositório https://github.com/joeladelaide/Sistema_Carteira_Digital.git
@@ -18,6 +19,16 @@ Pressione ENTER para criar seu clone local.
 
 # Versões dos pacotes e dependências
 JDK 20 <br>
-Github
+Github<br>
+
+#Equipe
+- Ayrton Marcos Rodrigues Delfino - RGM 30858569<br>
+- Joel Adelaide Medeiros - RGM 29799384<br>
+-Juliana Chacon - RGM 29677467<br>
+- Marcos Barbosa Vieira Filho - RGM 30174503<br>
+- Rian Lucas Gomes Candido - RGM 30632722<br>
+-Thiago Emanuel ferreira de paiva - RGM 29510678<br>
+
+
 
 
