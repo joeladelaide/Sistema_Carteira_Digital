@@ -127,4 +127,24 @@ public class Gerenciador {
 
         System.out.println("\nExchange: ");
         String exchange = input.next();
+        
+        try {
+            Criptomoeda criptomoeda = new Criptomoeda(nome, sigla, exchange);
+            Criptoativo  criptoativo = new Criptoativo(criptomoeda, nome, sigla, exchange); 
+            criptoativos.add(criptoativo);
 
+            limparTela();
+            System.out.println("\n\nCadastro realizado com SUCESSO!");
+            aguardarUsuario();
+        }
+        catch (Exception e) {
+
+            limparTela();
+            System.out.println("\n\nErro ao realizar o cadastro!");
+            aguardarUsuario();
+        }
+
+        menu();
+
+    }
+}    
