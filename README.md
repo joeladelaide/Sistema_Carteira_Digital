@@ -21,7 +21,7 @@ Pressione ENTER para criar seu clone local.
 JDK 20 <br>
 Github<br>
 
-#Equipe
+# Equipe
 - Ayrton Marcos Rodrigues Delfino - RGM 30858569<br>
 - Joel Adelaide Medeiros - RGM 29799384<br>
 -Juliana Chacon - RGM 29677467<br>
