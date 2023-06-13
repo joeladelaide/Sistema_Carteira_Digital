@@ -2,7 +2,7 @@
  Sistema de Gerenciamento de Carteira Digital de Criptomoedas
 
 # Configuração de Ambiente
-git clone https://github.com/joeladelaide/Sistema_Carteira_Digital.git
+Repositório https://github.com/joeladelaide/Sistema_Carteira_Digital.git
 
 No GitHub.com, navegue até a página principal do repositório. <br>
 Acima da lista de arquivos, clique em  Código.<br>
