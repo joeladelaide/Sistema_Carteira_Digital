@@ -147,4 +147,16 @@ public class Gerenciador {
         menu();
 
     }
+
+    private static Criptoativo encontrarCriptoativo(int idCriptoativo) {
+        Criptoativo criptoativo  = null;
+        if(criptoativos.size() > 0) {
+            for(Criptoativo cripto : criptoativos) {
+                if(cripto.getIdCriptoativo() == idCriptoativo) {
+                	criptoativo = cripto;
+                }
+            }
+        }
+        return criptoativo;
+    }
 }    
