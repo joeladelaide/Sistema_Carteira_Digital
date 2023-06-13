@@ -24,10 +24,10 @@ Github<br>
 # Equipe
 - Ayrton Marcos Rodrigues Delfino - RGM 30858569<br>
 - Joel Adelaide Medeiros - RGM 29799384<br>
--Juliana Chacon - RGM 29677467<br>
+- Juliana Chacon - RGM 29677467<br>
 - Marcos Barbosa Vieira Filho - RGM 30174503<br>
 - Rian Lucas Gomes Candido - RGM 30632722<br>
--Thiago Emanuel ferreira de paiva - RGM 29510678<br>
+- Thiago Emanuel ferreira de paiva - RGM 29510678<br>
 
 
 
