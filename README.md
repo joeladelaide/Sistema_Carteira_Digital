@@ -1,42 +1,23 @@
 # Sistema_Carteira_Digital
  Sistema de Gerenciamento de Carteira Digital de Criptomoedas
-Um parágrafo da descrição do projeto vai aqui
 
-🚀 Começando
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+# Configuração de Ambiente
+git clone https://github.com/joeladelaide/Sistema_Carteira_Digital.git
 
-Consulte Implantação para saber como implantar o projeto.
+No GitHub.com, navegue até a página principal do repositório.
+Acima da lista de arquivos, clique em  Código.
+Copie a URL do repositório.
+Para clonar o repositório usando HTTPS, em "HTTPS"
+Para clonar o repositório usando uma chave SSH, incluindo um certificado emitido pela autoridade de certificação SSH da sua organização, clique em SSH
+Para clonar um repositório usando a GitHub CLI, clique em GitHub CLI
+Abra Git Bash.
+Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
+Digite git clone e cole a URL já copiada.
+$ git clone https://github.com/joeladelaide/Sistema_Carteira_Digital.git
+Pressione ENTER para criar seu clone local.
 
-📋 Pré-requisitos
-De que coisas você precisa para instalar o software e como instalá-lo?
+# Versões dos pacotes e dependências
+JDK 20
+Github
 
-Dar exemplos
-🔧 Instalação
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-Diga como essa etapa será:
-
-Dar exemplos
-E repita:
-
-Até finalizar
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-🛠️ Construído com
-Mencione as ferramentas que você usou para criar seu projeto
-
-Dropwizard - O framework web usado
-Maven - Gerente de Dependência
-ROME - Usada para gerar RSS
-🖇️ Colaborando
-Por favor, leia o COLABORACAO.md para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-📌 Versão
-Nós usamos SemVer para controle de versão. Para as versões disponíveis, observe as tags neste repositório.
-
-✒️ Autores
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-Um desenvolvedor - Trabalho Inicial - umdesenvolvedor
-Fulano De Tal - Documentação - fulanodetal
-Você também pode ver a lista de todos os colaboradores que participaram deste projeto.
