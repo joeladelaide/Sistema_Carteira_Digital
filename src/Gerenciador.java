@@ -159,4 +159,42 @@ public class Gerenciador {
         }
         return criptoativo;
     }
+
+    public static void depositar() {
+
+        limparTela();
+
+        System.out.println("\n\n                  DEPÓSITO DE CRIPTOMOEDAS   \n");
+
+        System.out.println("Insira o Número do ID: ");
+        int idCriptoativo = input.nextInt();
+        Criptoativo criptoativo = encontrarCriptoativo(idCriptoativo); 
+
+        if(criptoativo != null) {
+
+            try {
+                System.out.println("Qual a quantidade de " + criptoativo.getNome() + " que deseja depositar ? ");
+                Double valorDeposito = input.nextDouble();
+            
+                criptoativo.depositar(valorDeposito);
+
+                limparTela();
+                System.out.println("\n\nDepósito realizado com SUCESSO!");
+                aguardarUsuario();
+            }
+            catch (Exception e) {
+
+                limparTela();
+                System.out.println("\n\nErro ao realizar o depósito!");
+                aguardarUsuario();
+            }
+        }else {
+            limparTela();
+            System.out.println("\n\nCriptomoeda não encontrada!");
+            aguardarUsuario();
+        }
+
+        menu();
+
+    }
 }    
